@@ -5,6 +5,14 @@ body {
     font-family: 'sans serif';
 }
 
+.header .fa {
+    font-size: 20px;
+}
+
+.header .fa-facebook-official:hover { color: #3b5998; }
+.header .fa-twitter:hover { color: #4099ff; }
+.header .fa-youtube-play:hover { color: #bb0000; }
+
 .header {
     height: 40px;
     width: 100%;
