@@ -15,6 +15,10 @@ body {
     overflow: hidden;
 }
 
+.header .links {
+    display: inline;
+}
+
 .header .links ul {
     margin: 0;
     float: right;
@@ -41,7 +45,19 @@ body {
     left: 45%;
 }
 
+.header .title a {
+    color: #eee;
+    text-decoration: none;
+}
 body .height-offset {
     height: 40px;
 }
 
+body .content {
+    color: #fff;
+}
+
+body .capa {
+    margin: 20px;
+    text-align: center;
+}
