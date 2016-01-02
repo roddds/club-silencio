@@ -3,14 +3,13 @@
 <head>
     <link href='static/style.css' rel='stylesheet'>
     <link href='static/font-awesome-4.5.0/css/font-awesome.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600,400,300' rel='stylesheet' type='text/css'>
     <title>Home</title>
 </head>
 <body>
 
 <div class="header">
-    <h1 class="title">
-        <a href="/">club silencio</a>
-    </h1>
+    <div class="title"><a href="/"><img src="/static/logo_small.png"></a></div>
 
     <div class="links">
         <ul>
@@ -18,13 +17,11 @@
             <li><a href="/about">about</a></li>
             <li><a href="/music">music</a></li>
             <li><a href="/live">live</a></li>
-            <li><a href="/contact">contact</a></li>
-
-            <li>|</li>
-
-            <li><a href="http://facebook.com/elclubsilencio"><i class='fa fa-facebook-official'></i></a></li>
-            <li><a href="#"><i class='fa fa-youtube-play'></i></a></li>
-            <li><a href="http://twitter.com/clubsilencio_"><i class='fa fa-twitter'></i></a></li>
+            <li></li>
+            <li><a href="/contact"><i class="fa fa-envelope-o"></i></a></li>
+            <li><a target="_blank" href="http://facebook.com/elclubsilencio"><i class='fa fa-facebook-official'></i></a></li>
+            <li><a target="_blank" href="#"><i class='fa fa-youtube-play'></i></a></li>
+            <li><a target="_blank" href="http://twitter.com/clubsilencio_"><i class='fa fa-twitter'></i></a></li>
         </ul>
     </div>
 </div>
@@ -33,6 +30,10 @@
 <div class="content">
 {% block content %}
 {% endblock %}
+</div>
+
+<div class="footer">
+
 </div>
 
 </body>

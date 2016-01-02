@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-music
+<div class="music">
+    <ul>
+        <li><p>Eulogy</p>
+        <audio controls><source src="/static/dead_beats/eulogy.mp3"></audio></li>
+        <li><p>Runaway</p>
+        <audio controls><source src="/static/dead_beats/runaway.mp3"></audio></li>
+        <li><p>The Lonely Street</p>
+        <audio controls><source src="/static/dead_beats/the_lonely_street.mp3"></audio></li>
+    </ul>
+</div>
+
 {% endblock %}
