@@ -1,40 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <link href='static/style.css' rel='stylesheet'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title %}Home{% endblock %}</title>
+
     <link href='static/font-awesome-4.5.0/css/font-awesome.css' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600,400,300' rel='stylesheet' type='text/css'>
-    <title>Home</title>
+
+    <!-- bootstrap core -->
+    <link href="static/bootstrap/css/bootstrap.min.css" rel='stylesheet'>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <link href='static/css/cover.css' rel='stylesheet'>
+    <link href='static/style.css' rel='stylesheet'>
+
+    {% block head %}
+    {% endblock %}
+
+
 </head>
 <body>
+<div class="site-wrapper"><div class="site-wrapper-inner"><div class="cover-container">
 
-<div class="header">
-    <div class="title"><a href="/"><img src="/static/logo_small.png"></a></div>
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand"><a href="/"><img title="club silencio" src="/static/logo_small.png"></a></h3>
+          <nav>
+            <ul class="nav masthead-nav">
+                <li><a href="/">home</a></li>
+                <li><a href="/about">about</a></li>
+                <li><a href="/music">music</a></li>
+                <li><a href="/live">live</a></li>
 
-    <div class="links">
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/about">about</a></li>
-            <li><a href="/music">music</a></li>
-            <li><a href="/live">live</a></li>
-            <li></li>
-            <li><a href="/contact"><i class="fa fa-envelope-o"></i></a></li>
-            <li><a target="_blank" href="http://facebook.com/elclubsilencio"><i class='fa fa-facebook-official'></i></a></li>
-            <li><a target="_blank" href="#"><i class='fa fa-youtube-play'></i></a></li>
-            <li><a target="_blank" href="http://twitter.com/clubsilencio_"><i class='fa fa-twitter'></i></a></li>
-        </ul>
-    </div>
-</div>
-<div class="height-offset"></div>
+                <li class="navicon"><a href="/contact"><i class="fa fa-envelope-o"></i></a></li>
+                <li class="navicon"><a target="_blank" href="http://facebook.com/elclubsilencio"><i class='fa fa-facebook-official'></i></a></li>
+                <li class="navicon"><a target="_blank" href="#"><i class='fa fa-youtube-play'></i></a></li>
+                <li class="navicon"><a target="_blank" href="http://twitter.com/clubsilencio_"><i class='fa fa-twitter'></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
-<div class="content">
-{% block content %}
-{% endblock %}
-</div>
+      <div class="inner cover">
+            {% block content %}
+            {% endblock %}
+      </div>
 
-<div class="footer">
+      <div class="mastfoot">
+        <div class="inner">
+          <div class="nav">
+              <span><a href="/">home</a></span>
+              <span><a href="/about">about</a></span>
+              <span><a href="/music">music</a></span>
+              <span><a href="/live">live</a></span>
+          </div>
+        </div>
+      </div>
 
-</div>
+</div></div></div>
 
+
+
+
+<script src="static/jquery.min.js"></script>
+<script src="static/bootstrap/js/bootstrap.min.js"></script>
+<script src="static/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
