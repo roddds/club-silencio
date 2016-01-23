@@ -1,21 +1,24 @@
 {% extends "base.html" %}
 
+{% block title %}music{% endblock %}
+
 {% block head %}
 
 {% endblock %}
 
 
 {% block content %}
-
+<hr>
 <div class="row">
     <div class="col-md-4">
         <img class="img-responsive" alt="dead beats" src="static/dead_beats.png">
-        <ul class="list-inline">
+        <ul class="list-inline no-margin">
             <li><i class="fa fa-play"></i></li>
             <li><i class="fa fa-fast-backward"></i></li>
             <li><i class="fa fa-fast-forward"></i></li>
             <li><i class="fa fa-stop"></i></li>
         </ul>
+        <small><a href="#">download album</a></small>
     </div>
     <div class="col-md-8">
         <table class="table table-responsive">
@@ -47,16 +50,17 @@
         </table>
     </div>
 </div>
-
+<hr>
 <div class="row padding-large-vertical">
     <div class="col-md-4">
         <img src="static/club_silencio.png" alt="club silencio" class="img-responsive">
-        <ul class="list-inline">
+        <ul class="list-inline no-margin">
             <li><i class="fa fa-play"></i></li>
             <li><i class="fa fa-fast-backward"></i></li>
             <li><i class="fa fa-fast-forward"></i></li>
             <li><i class="fa fa-stop"></i></li>
         </ul>
+        <small><a href="#">download album</a></small>
     </div>
 
     <div class="col-md-8">

@@ -28,11 +28,6 @@ body {
     padding: 0 10px;
 }
 
-
-/* /music */
-.player img {
-    display: inline;
-    float: left;
-    height: 220px;
-    padding-right: 20px;
+.no-margin {
+    margin: 0 auto;
 }
