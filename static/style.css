@@ -1,10 +1,6 @@
 .fa-facebook-official:hover { color: #3b5998; }
-.fa-twitter:hover { color: #4099ff; }
-.fa-youtube-play:hover { color: #bb0000; }
-
-.masthead li.navicon a {
-    border-bottom: none;
-}
+.fa-twitter:hover           { color: #4099ff; }
+.fa-youtube-play:hover      { color: #bb0000; }
 
 body {
     font-family: 'Titillium Web', sans-serif;
@@ -30,4 +26,36 @@ body {
 
 .no-margin {
     margin: 0 auto;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.album-art {
+    margin-bottom: 10px;
+}
+
+.navbar.navbar-inverse {
+    background-color: inherit;
+    border-bottom: none;
+
+}
+
+.navbar-header {
+    height: 70px;
+}
+
+@media (min-width: 768px) {
+    .icon_label {
+        display: none;
+    }
+
+    nav.navbar {
+        margin: 0 auto;
+    }
+
+    ul.nav {
+        float: right;
+    }
 }
