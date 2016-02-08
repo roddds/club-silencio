@@ -47,6 +47,15 @@ body {
 }
 
 @media (min-width: 768px) {
+
+    .navbar {
+        position: absolute;
+        width: 700px;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
     .icon_label {
         display: none;
     }
