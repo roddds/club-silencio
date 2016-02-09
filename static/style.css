@@ -28,18 +28,13 @@ body {
     margin: 0 auto;
 }
 
-.spacer {
-    height: 50px;
-}
-
 .album-art {
-    margin-bottom: 10px;
+    margin: 35px 0 10px 0;
 }
 
 .navbar.navbar-inverse {
     background-color: inherit;
     border-bottom: none;
-
 }
 
 .navbar-header {
@@ -47,13 +42,17 @@ body {
 }
 
 @media (min-width: 768px) {
-
     .navbar {
         position: absolute;
         width: 700px;
         top: 0;
         left: 0;
         right: 0;
+    }
+
+    .spacer {
+        margin-top: 20px;
+        height: 20px;
     }
 
     .icon_label {
