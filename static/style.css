@@ -1,6 +1,6 @@
-.fa-facebook-official:hover { color: #3b5998; }
-.fa-twitter:hover           { color: #4099ff; }
-.fa-youtube-play:hover      { color: #bb0000; }
+.nav li.navicon.facebook :hover    { color: #3b5998; }
+.nav li.navicon.twitter :hover     { color: #4099ff; }
+.nav li.navicon.youtube :hover     { color: #bb0000; }
 
 body {
     font-family: 'Titillium Web', sans-serif;
