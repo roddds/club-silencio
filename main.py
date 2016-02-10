@@ -22,7 +22,10 @@ def about():
 
 @app.route('/music/')
 def music():
-    return render_template('music.html')
+    context = {
+        'STATIC_URL': app.static_url_path,
+    }
+    return render_template('music.html', **context)
 
 @app.route('/live/')
 def live():

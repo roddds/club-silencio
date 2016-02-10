@@ -132,6 +132,10 @@
 
 {% block js %}
 {{ super() }}
+    <script type="text/javascript">
+        var STATIC_URL = "{{ STATIC_URL }}";
+    </script>
+
     <script src="{{ url_for('static', filename='amplitudejs/js/amplitude.min.js') }}"></script>
     <script src="{{ url_for('static', filename='player.js') }}"></script>
 {% endblock %}
