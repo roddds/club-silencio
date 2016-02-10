@@ -7,7 +7,7 @@
     <title>club silencio - music</title>
 
     <link rel="apple-touch-icon-precomposed" href="/club-silencio/static/favicon-152.png">
-    <link href="/club-silencio/static/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet">
+    <link href="/club-silencio/static/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600,400,300" rel="stylesheet" type="text/css">
 
     <!-- bootstrap core -->
@@ -93,53 +93,28 @@
             
 <div class="row">
     <div class="col-md-12">
+        <div id="small-player">
 
-    <!-- Begin Small Player -->
-    <div id="small-player">
-        <!-- Begin Small Player Left -->
-        <div id="small-player-left">
+            <div id="small-player-middle-meta">
+                <div id="now-playing-title" amplitude-song-info="name"></div>
+                <div class="album-information"><span amplitude-song-info="album"></span></div>
+            </div>
+
+            <div id="small-player-middle-controls">
+                <div class="amplitude-prev  controls"><i class="fa fa-backward"></i></div>
+                <div class="amplitude-play-pause amplitude-paused  controls" amplitude-main-play-pause="true"><i class="fa"></i></div>
+                <div class="amplitude-next  controls"><i class="fa fa-forward"></i></div>
+            </div>
+
+            <div class="scrubber-bar">
+                <div id="current-time" class="time"><span class="amplitude-current-minutes" amplitude-single-current-minutes="true">0</span>:<span class="amplitude-current-seconds" amplitude-single-current-seconds="true">00</span></div>
+                <div class="amplitude-song-time-visualization" amplitude-single-song-time-visualization="true" id="song-time-visualization"> </div>
+                <div id="duration-time" class="time">-<span class="amplitude-duration-minutes" amplitude-single-duration-minutes="true">0</span>:<span class="amplitude-duration-seconds" amplitude-single-duration-seconds="true">00</span></div>
+            </div>
 
         </div>
-        <!-- End Small Player Left -->
-
-        <!-- Begin Small Player Middle -->
-        <div id="small-player-middle">  
-            <div id="small-player-middle-top">
-                <!-- Begin Controls Container -->
-                <div id="small-player-middle-controls">
-                    <div class="amplitude-prev controls"><i class="fa fa-fast-backward"></i></div>
-                    <div class="amplitude-play-pause amplitude-paused controls" amplitude-main-play-pause="true"><i class="fa"></i></div>
-                    <div class="amplitude-next controls"><i class="fa fa-fast-forward"></i></div>
-                    
-                </div>
-                <!-- End Controls Container -->
-
-                <!-- Begin Meta Container -->
-                <div id="small-player-middle-meta">
-                    <div id="now-playing-title" amplitude-song-info="name"></div>
-                    <div class="album-information"><span amplitude-song-info="album"></span></div>
-                </div>
-                <!-- End Meta Container -->
-            </div>
-            <div id="current-time">
-                <span class="amplitude-current-minutes" amplitude-single-current-minutes="true">0</span>:<span class="amplitude-current-seconds" amplitude-single-current-seconds="true">00</span>
-            </div>
-            
-            <div id="small-player-middle-bottom">
-                <div class="amplitude-song-time-visualization"
-                     amplitude-single-song-time-visualization="true"
-                     id="song-time-visualization">
-                 </div>
-            </div>
-        </div>
-        <!-- End Small Player Middle -->
-
-    </div>
-    <!-- End Small Player -->
-
     </div>
 </div>
-
 
 <div class="row m-t-1">
     <div class="col-md-4">

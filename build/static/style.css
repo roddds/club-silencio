@@ -12,25 +12,8 @@ body {
     box-shadow: none;
 }
 
-.mastfoot li {
-    float: left;
-    display: inline-block;
-}
-
-.mastfoot .nav {
-    text-align: center;
-}
-
-.mastfoot .nav span {
-    padding: 0 10px;
-}
-
 .no-margin {
     margin: 0 auto;
-}
-
-.album-art {
-    margin: 35px 0 10px 0;
 }
 
 .navbar.navbar-inverse {

@@ -6,22 +6,19 @@ body { height: auto; }
 .amplitude-play-pause.amplitude-playing i:before { content: "\f04c"; } /* pause */
 
 
+.album-art {
+    margin: 35px 0 10px 0;
+    border: 3px solid rgba(101, 101, 101, 0.2);
+    width: 190px;
+    height: 190px;
+}
+
 div#small-player{
     width: 100%;
     margin: auto;
     height: 75px;
     text-align: center;
     margin-bottom: 10px;
-}
-
-/*
-    Small Player Middle
-*/
-div#small-player-middle{
-    margin-bottom: 15px;
-    width: 100%;
-    height: 50px;
-    cursor: pointer;
 }
 
 /*
@@ -40,18 +37,53 @@ div.amplitude-play-pause {
 
 div.controls {
     display: inline;
+    cursor: pointer;
     padding: 15px;
+    margin: 25px;
+}
+
+div#small-player-middle-controls {
+    font-size: 20px;
+    height: 25px;
+    margin: 10px 0;
+
+}
+
+div.controls:hover, td>.amplitude-play-pause:hover {
+    color: #999;
+}
+
+
+div.scrubber-bar {
+    height: 20px;
+}
+
+/*
+    Current song time
+*/
+.time {
+    font-size: 12px;
+    float: left;
+    width: 7%;
+    display: inline;
+    color: white;
 }
 
 /*
     Song Time Visualization
 */
-div#song-time-visualization{
-    width: 100%;
+
+div#song-time-visualization {
+    display: block;
+    float: left;
+    width: 86%;
     height: 5px;
+    margin-top: 6px;
+    margin-bottom: 10px;
     background-color: white;
 }
-div#song-time-visualization div.amplitude-song-time-visualization-status{
+
+div#song-time-visualization div.amplitude-song-time-visualization-status {
     background-color: gray;
     height: 5px;
 }
@@ -59,20 +91,12 @@ div#song-time-visualization div.amplitude-song-time-visualization-status{
 /*
     Now Playing Information
 */
-div#now-playing-title{
+div#now-playing-title {
     font-size: 14px;
     color: white;
     line-height: 16px;
 }
-div.album-information{
+div.album-information {
     font-size: 14px;
     color: #bebebe;
-}
-/*
-    Current song time
-*/
-div#current-time{
-    font-size: 12px;
-    margin-bottom: 5px;
-    color: white;
 }
