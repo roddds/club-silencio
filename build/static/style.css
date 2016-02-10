@@ -1,0 +1,73 @@
+.nav li.navicon.facebook :hover    { color: #3b5998; }
+.nav li.navicon.twitter :hover     { color: #4099ff; }
+.nav li.navicon.youtube :hover     { color: #bb0000; }
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+}
+
+.site-wrapper {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.mastfoot li {
+    float: left;
+    display: inline-block;
+}
+
+.mastfoot .nav {
+    text-align: center;
+}
+
+.mastfoot .nav span {
+    padding: 0 10px;
+}
+
+.no-margin {
+    margin: 0 auto;
+}
+
+.album-art {
+    margin: 35px 0 10px 0;
+}
+
+.navbar.navbar-inverse {
+    background-color: inherit;
+    border-bottom: none;
+}
+
+.collapse.navbar-collapse {
+    margin-top: 5px;
+}
+
+.m-t-1 {
+    margin-top: 1em;
+}
+
+.navbar-header {
+    height: 90px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        position: absolute;
+        width: 700px;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .icon_label {
+        display: none;
+    }
+
+    nav.navbar {
+        margin: 0 auto;
+    }
+
+    ul.nav {
+        float: right;
+    }
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>club silencio - music</title>
+
+    <link rel="apple-touch-icon-precomposed" href="/static/favicon-152.png">
+    <link href="/static/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600,400,300" rel="stylesheet" type="text/css">
+
+    <!-- bootstrap core -->
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <link href="/static/css/cover.css" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+
+    <meta property="og:url"                content="http://189.122.99.18:8001/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Club Silencio" />
+    <meta property="og:description"        content="No hay banda. This is all a tape recording." />
+    <meta property="og:image"              content="/static/og_large.png" />
+
+    
+<link rel="stylesheet" href="/static/player.css">
+
+
+
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-static-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">
+          <img title="club silencio" src="/static/logo_small.png">
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li class=""><a href="/">home</a></li>
+          <li class=""><a href="/about/">about</a></li>
+          <li class=""><a href="/music/">music</a></li>
+          <li class=""><a href="/live/">live</a></li>
+
+          <li class="navicon email">
+            <a href="/contact"><i class="fa fa-envelope-o"></i>
+            <span class="icon_label">email</span>
+            </a>
+          </li>
+          <li class="navicon facebook">
+            <a target="_blank" href="http://facebook.com/elclubsilencio"><i class="fa fa-facebook-official"></i>
+            <span class="icon_label">facebook</span>
+            </a>
+          </li>
+          <li class="navicon youtube">
+            <a target="_blank" href="https://www.youtube.com/channel/UCmJA_WmjWK7kYfj6Ls1Etmw"><i class="fa fa-youtube-play"></i>
+            <span class="icon_label">youtube</span>
+            </a>
+          </li>
+          <li class="navicon twitter">
+            <a target="_blank" href="http://twitter.com/clubsilencio_"><i class="fa fa-twitter"></i>
+            <span class="icon_label">twitter</span>
+            </a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+
+<div class="site-wrapper"><div class="site-wrapper-inner"><div class="cover-container">
+
+
+      <div class="inner cover">
+        <div class="container-fluid">
+            
+<div class="row">
+    <div class="col-md-12">
+
+    <!-- Begin Small Player -->
+    <div id="small-player">
+        <!-- Begin Small Player Left -->
+        <div id="small-player-left">
+
+        </div>
+        <!-- End Small Player Left -->
+
+        <!-- Begin Small Player Middle -->
+        <div id="small-player-middle">  
+            <div id="small-player-middle-top">
+                <!-- Begin Controls Container -->
+                <div id="small-player-middle-controls">
+                    <div class="amplitude-prev controls"><i class="fa fa-fast-backward"></i></div>
+                    <div class="amplitude-play-pause amplitude-paused controls" amplitude-main-play-pause="true"><i class="fa"></i></div>
+                    <div class="amplitude-next controls"><i class="fa fa-fast-forward"></i></div>
+                    
+                </div>
+                <!-- End Controls Container -->
+
+                <!-- Begin Meta Container -->
+                <div id="small-player-middle-meta">
+                    <div id="now-playing-title" amplitude-song-info="name"></div>
+                    <div class="album-information"><span amplitude-song-info="album"></span></div>
+                </div>
+                <!-- End Meta Container -->
+            </div>
+            <div id="current-time">
+                <span class="amplitude-current-minutes" amplitude-single-current-minutes="true">0</span>:<span class="amplitude-current-seconds" amplitude-single-current-seconds="true">00</span>
+            </div>
+            
+            <div id="small-player-middle-bottom">
+                <div class="amplitude-song-time-visualization"
+                     amplitude-single-song-time-visualization="true"
+                     id="song-time-visualization">
+                 </div>
+            </div>
+        </div>
+        <!-- End Small Player Middle -->
+
+    </div>
+    <!-- End Small Player -->
+
+    </div>
+</div>
+
+
+<div class="row m-t-1">
+    <div class="col-md-4">
+        <img class="img-responsive album-art" alt="dead beats" src="/static/dead_beats.png">
+        <small><a href="#">download</a></small>
+    </div>
+    <div class="col-md-8">
+        <table class="table table-responsive">
+        <thead>
+            <tr><td>Dead Beats (2016)</td><td></td></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eulogy</td>
+                <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="0"><i class="fa"></i></div></td>
+            </tr>
+            <tr>
+                <td>Runaway</td>
+                <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="1"><i class="fa"></i></div></td>
+            </tr>
+            <tr>
+                <td>The Lonely Street</td>
+                <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="2"><i class="fa"></i></div></td>
+            </tr>
+            <tr>
+                <td>Believe</td>
+                <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="3"><i class="fa"></i></div></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="/static/silencio_ep.png" alt="club silencio" class="img-responsive album-art">
+        <small><a href="/static/downloads/club-silencio_silencio-ep.zip">download</a></small>
+    </div>
+
+    <div class="col-md-8">
+        <table class="table table-responsive">
+            <thead><tr><td>Silencio EP (2008)</td><td></td></tr></thead>
+            <tbody>
+                <tr>
+                    <td>Untitled</td>
+                    <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="4"><i class="fa"></i></div></td>
+                <tr>
+                </tr>
+                    <td>Wouldn't It Be Nice?</td>
+                    <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="5"><i class="fa"></i></div></td>
+                <tr>
+                </tr>
+                    <td>Like In A Silent Film</td>
+                    <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="6"><i class="fa"></i></div></td>
+                <tr>
+                </tr>
+                    <td>Puking Butterflies</td>
+                    <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="7"><i class="fa"></i></div></td>
+                <tr>
+                </tr>
+                    <td>Reminder</td>
+                    <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="8"><i class="fa"></i></div></td>
+                <tr>
+                </tr>
+                    <td>Fail, Retry</td>
+                    <td><div class="amplitude-play-pause amplitude-paused" amplitude-song-index="9"><i class="fa"></i></div></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+  <script src="/static/jquery.min.js"></script>
+  <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="/static/amplitudejs/js/amplitude.min.js"></script>
+    <script src="/static/player.js"></script>
+
+
+        </div>
+      </div>
+
+</div></div></div>
+
+
+
+
+  <script src="/static/jquery.min.js"></script>
+  <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="/static/amplitudejs/js/amplitude.min.js"></script>
+    <script src="/static/player.js"></script>
+
+
+</body>
+</html>
