@@ -128,10 +128,10 @@
         </table>
     </div>
 </div>
+{% endblock %}
 
 {% block js %}
 {{ super() }}
     <script src="{{ url_for('static', filename='amplitudejs/js/amplitude.min.js') }}"></script>
     <script src="{{ url_for('static', filename='player.js') }}"></script>
-{% endblock %}
 {% endblock %}
