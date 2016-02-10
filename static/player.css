@@ -6,6 +6,10 @@ body { height: auto; }
 .amplitude-play-pause.amplitude-playing i:before { content: "\f04c"; } /* pause */
 
 
+.album-art {
+    margin: 35px 0 10px 0;
+}
+
 div#small-player{
     width: 100%;
     margin: auto;
