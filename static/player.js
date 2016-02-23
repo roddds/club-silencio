@@ -1,16 +1,16 @@
 Amplitude.init({
     "songs": [
         {
-            name: "Eulogy",
-            artist: "Club Silencio",
-            album: "Dead Beats (2016)",
-            url: STATIC_URL + "/dead_beats/eulogy.mp3"
-        },
-        {
             name: "Runaway",
             artist: "Club Silencio",
             album: "Dead Beats (2016)",
             url: STATIC_URL + "/dead_beats/runaway.mp3"
+        },
+        {
+            name: "Eulogy",
+            artist: "Club Silencio",
+            album: "Dead Beats (2016)",
+            url: STATIC_URL + "/dead_beats/eulogy.mp3"
         },
         {
             name: "The Lonely Street",
