@@ -1,10 +1,12 @@
 body { height: auto; }
 .site-wrapper-inner { vertical-align: inherit !important; }
-.navbar { position: inherit !important; }
 
 .amplitude-play-pause.amplitude-paused  i:before { content: "\f04b"; } /* play */
 .amplitude-play-pause.amplitude-playing i:before { content: "\f04c"; } /* pause */
 
+.row {
+    margin-bottom: 50px;
+}
 
 .album-art {
     margin: 35px 0 10px 0;
@@ -18,7 +20,7 @@ div#small-player{
     margin: auto;
     height: 75px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 /*

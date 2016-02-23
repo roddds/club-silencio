@@ -10,6 +10,8 @@ body {
 .site-wrapper {
     -webkit-box-shadow: none;
     box-shadow: none;
+    height: initial;
+    min-height: initial;
 }
 
 .no-margin {
@@ -19,6 +21,7 @@ body {
 .navbar.navbar-inverse {
     background-color: inherit;
     border-bottom: none;
+    font-size: 16px;
 }
 
 .collapse.navbar-collapse {
@@ -33,21 +36,23 @@ body {
     height: 90px;
 }
 
-@media (min-width: 768px) {
-    .navbar {
-        position: absolute;
-        width: 700px;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
+.site-wrapper-inner {
+    display: block;
+}
 
+.img-responsive.tape {
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
     .icon_label {
         display: none;
     }
 
     nav.navbar {
+        width: 700px;
         margin: 0 auto;
+        margin-top: 30px;
     }
 
     ul.nav {
