@@ -1,10 +1,9 @@
-body { height: auto; }
-.site-wrapper-inner { vertical-align: inherit !important; }
-.navbar { position: inherit !important; }
-
 .amplitude-play-pause.amplitude-paused  i:before { content: "\f04b"; } /* play */
 .amplitude-play-pause.amplitude-playing i:before { content: "\f04c"; } /* pause */
 
+.row {
+    margin-bottom: 50px;
+}
 
 .album-art {
     margin: 35px 0 10px 0;
@@ -13,12 +12,29 @@ body { height: auto; }
     height: 190px;
 }
 
+.song-list td {
+    font-weight: 400;
+}
+
+.list-group a {
+    display: block;
+    text-decoration: none;
+}
+
+.list-group a:hover i.fa-soundcloud { color: #ff7700; }
+.list-group a:hover i.fa-apple { color: #aaa; }
+.list-group a:hover i.fa-spotify { color: #81b71a; }
+.list-group a:hover i.fa-download { color: #666; }
+
+td strong {
+    font-size: 16px;
+}
+
 div#small-player{
     width: 100%;
-    margin: auto;
+    margin: 40px auto;
     height: 75px;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 /*
@@ -50,7 +66,6 @@ div#small-player-middle-controls {
 }
 
 div.controls:hover, td>.amplitude-play-pause:hover {
-    color: #999;
 }
 
 
@@ -66,7 +81,6 @@ div.scrubber-bar {
     float: left;
     width: 7%;
     display: inline;
-    color: white;
 }
 
 /*
@@ -80,11 +94,10 @@ div#song-time-visualization {
     height: 5px;
     margin-top: 6px;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: #333;
 }
 
 div#song-time-visualization div.amplitude-song-time-visualization-status {
-    background-color: gray;
     height: 5px;
 }
 
@@ -93,10 +106,8 @@ div#song-time-visualization div.amplitude-song-time-visualization-status {
 */
 div#now-playing-title {
     font-size: 14px;
-    color: white;
     line-height: 16px;
 }
 div.album-information {
     font-size: 14px;
-    color: #bebebe;
 }
