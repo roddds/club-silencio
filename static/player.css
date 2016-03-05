@@ -15,6 +15,24 @@ body { height: auto; }
     height: 190px;
 }
 
+.song-list td {
+    font-weight: 400;
+}
+
+.list-group a {
+    display: block;
+    text-decoration: none;
+}
+
+.list-group a:hover i.fa-soundcloud { color: #ff7700; }
+.list-group a:hover i.fa-apple { color: #aaa; }
+.list-group a:hover i.fa-spotify { color: #81b71a; }
+.list-group a:hover i.fa-download { color: #666; }
+
+td strong {
+    font-size: 16px;
+}
+
 div#small-player{
     width: 100%;
     margin: auto;

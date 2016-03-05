@@ -36,10 +36,14 @@
 <div class="row m-t-1">
     <div class="col-md-4">
         <img class="img-responsive album-art" alt="dead beats" src="{{ url_for('static', filename='dead_beats.jpg') }}">
-        <small><a href="#">download</a></small>
+        <div class="list-group">
+            <a href="#"><i class="fa fa-soundcloud fa-fw"></i> soundcloud</a>
+            <a href="#"><i class="fa fa-spotify fa-fw"></i> spotify</a>
+            <a href="#"><i class="fa fa-apple fa-fw"></i> itunes </a>
+        </div>
     </div>
     <div class="col-md-8">
-        <table class="table table-responsive">
+        <table class="table table-responsive song-list">
         <thead>
             <tr><td><strong>Dead Beats</strong> (2016)</td></tr>
         </thead>
@@ -68,7 +72,10 @@
 <div class="row">
     <div class="col-md-4">
         <img src="{{ url_for('static', filename='silencio_ep.png') }}" alt="club silencio" class="img-responsive album-art">
-        <small><a href="{{ url_for('static', filename='downloads/club-silencio_silencio-ep.zip') }}">download</a></small>
+        <div class="list-group">
+            <a href="#"><i class="fa fa-soundcloud fa-fw"></i> soundcloud</a>
+            <a href="{{ url_for('static', filename='downloads/club-silencio_silencio-ep.zip') }}"><i class="fa fa-download fa-fw"></i> download</a>
+        </div>
     </div>
 
     <div class="col-md-8">
