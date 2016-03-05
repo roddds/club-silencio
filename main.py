@@ -27,10 +27,6 @@ def music():
     }
     return render_template('music.html', **context)
 
-@app.route('/live/')
-def live():
-    return render_template('live.html')
-
 @app.route('/contact/')
 def contact():
     return render_template('contact.html')
