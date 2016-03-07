@@ -6,7 +6,7 @@
 }
 
 .album-art {
-    margin: 35px 0 10px 0;
+    margin: 35px auto 10px auto;
     border: 3px solid rgba(101, 101, 101, 0.2);
     width: 190px;
     height: 190px;
@@ -19,6 +19,31 @@
 .list-group a {
     display: block;
     text-decoration: none;
+}
+
+.list-group span.store {
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    background-image: url('./store-icons.png');
+    background-size: 30px;
+    margin-bottom: -7px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+span.amazon {
+    background-position: 0 0;
+}
+
+span.google {
+    background-position: 100% 0;
+}
+
+.list-group a:hover span.store {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }
 
 .list-group a:hover i.fa-soundcloud { color: #ff7700; }
