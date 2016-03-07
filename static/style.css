@@ -47,6 +47,7 @@ body {
     background-color: #333;
     width: 100%;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 .container {
@@ -63,6 +64,7 @@ body {
     border-bottom: none;
     font-size: 20px;
     text-transform: uppercase;
+    padding-top: 30px;
 }
 
 .collapse.navbar-collapse {
@@ -85,6 +87,7 @@ body {
     margin-top: -10px;
 }
 
+/* desktop */
 @media (min-width: 768px) {
     .icon_label {
         display: none;
@@ -93,7 +96,6 @@ body {
     nav.navbar {
         width: 700px;
         margin: 0 auto;
-        margin-top: 30px;
     }
 
     ul.nav {
