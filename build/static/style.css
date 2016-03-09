@@ -21,6 +21,13 @@
     border-radius: 5px;
 }
 
+.nav .lang-choice {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color: #eee;
