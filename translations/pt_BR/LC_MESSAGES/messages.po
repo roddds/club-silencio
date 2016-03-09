@@ -1,0 +1,81 @@
+# Portuguese (Brazil) translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-03-08 23:58-0300\n"
+"PO-Revision-Date: 2016-03-09 00:03-0300\n"
+"Language: pt_BR\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: templates/about.html:26
+msgid "about Club Silencio "
+msgstr "sobre o Club Silencio"
+
+#: templates/about.html:28
+msgid ""
+"Club Silencio is the musical alias of Brazilian singer/songwriter Louise "
+"D.D. - an imaginary band."
+msgstr ""
+"Club Silencio é o pseudônimo da cantora/compositora carioca Louise D.D. "
+"– uma banda imaginária."
+
+#: templates/about.html:30
+msgid ""
+"Playing in bands but writing music on her own since the age of 16, she "
+"decided to go solo and name her project Club Silencio in 2007. The name "
+"is a reference to Silencio - the club where \"no hay banda\" and \"it's "
+"all a tape recording\" - in David Lynch's film <em>Mulholland Dr.</em>"
+msgstr ""
+"Tocando em bandas, mas compondo sozinha desde os 16 anos, ela decidiu "
+"criar um projeto solo e chamá-lo de Club Silencio em 2007. O nome é uma "
+"referência ao clube Silencio – onde “no hay banda” e “it’s all a tape "
+"recording” – do filme <em>Mulholland Dr.</em>, de David Lynch."
+
+#: templates/about.html:32
+msgid ""
+"The first independent release, the lo-fi-esque <em>Silencio EP</em>, "
+"came out in August 2008 with only 100 copies and no tour. However, in "
+"October 2008 the song \"Wouldn't It Be Nice?\" was featured in an "
+"independent playlist and became a minor alternative web hit, gathering "
+"few hundreds scrobbles on Last.fm."
+msgstr ""
+"O primeiro EP, uma produção lo-fi independente intitulada <em>Silencio "
+"EP</em> foi lançado em agosto de 2008 com apenas 100 cópias e nenhum "
+"show. No entanto, em outubro do mesmo ano a faixa \"Wouldn't It Be Nice?"
+"\" fez parte de uma playlist independente e se tornou um quase hit "
+"alternativo, angariando algumas centenas de scrobbles no Last.fm."
+
+#: templates/about.html:34
+msgid ""
+"Seven years and one gig later, the second EP, titled <em>Dead Beats</em> "
+"and featuring a cover version of Cher's late '90s hit \"Believe\", came "
+"out in March 2016. "
+msgstr ""
+"Depois de sete anos e uma única apresentação ao vivo, o segundo EP, "
+"intitulado <em>Dead Beats</em> e contendo uma versão de "
+"“Believe” (sucesso na voz da cantora norte-americana Cher no final dos "
+"anos 90), foi lançado em março de 2016."
+
+#: templates/base.html:54
+msgid "home"
+msgstr ""
+
+#: templates/base.html:55
+msgid "about"
+msgstr "sobre"
+
+#: templates/base.html:56
+msgid "music"
+msgstr "música"
