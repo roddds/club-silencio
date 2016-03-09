@@ -79,12 +79,22 @@ body {
     height: 90px;
 }
 
-.img-responsive.tape {
+.offcenter-content {
     margin-top: 50px;
 }
 
 .navbar-brand img {
     margin-top: -10px;
+}
+
+.about-text {
+    text-align: justify;
+}
+.about-text h1 {
+    font-size: 1.9em;
+}
+.about-text p {
+    font-size: 1.1em;
 }
 
 /* desktop */
