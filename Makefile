@@ -12,3 +12,6 @@ trans_extract:
 
 trans_update:
 	pybabel update -i messages.pot -d translations
+
+gh_pages:
+	git subtree push --prefix build origin gh-pages
