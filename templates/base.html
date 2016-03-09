@@ -51,9 +51,9 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-          <li class=""><a href="{{ url_for('home', lang=lang) }}"> {{ _('home') }}</a></li>
-          <li class=""><a href="{{ url_for('about', lang=lang) }}"> {{ _('about') }}</a></li>
-          <li class=""><a href="{{ url_for('music', lang=lang) }}"> {{ _('music') }}</a></li>
+          <li class=""><a href="{{ url_for('home', lang=lang) }}">{{ _('home') }}</a></li>
+          <li class=""><a href="{{ url_for('about', lang=lang) }}">{{ _('about') }}</a></li>
+          <li class=""><a href="{{ url_for('music', lang=lang) }}">{{ _('music') }}</a></li>
 
           <li class="navicon email">
             <a href="{{ url_for('contact', lang=lang) }} "><i class="fa fa-envelope"></i>
@@ -75,9 +75,9 @@
             <span class="icon_label">twitter</span>
             </a>
           </li>
-          <li>
-            <a class="lang-choice" href="{{ url_for('home', lang='pt') }}">pt</a> |
-            <a class="lang-choice" href="{{ url_for('home') }}">en</a>
+          <li class="lang-choice">
+            <a class="{% if lang == 'pt' %}active{% endif %}" href="{{ url_for('home', lang='pt') }}">pt</a>
+            <a class="{% if lang == None %}active{% endif %}" href="{{ url_for('home') }}">en</a>
           </li>
       </ul>
     </div>
