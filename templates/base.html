@@ -44,19 +44,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="{{ url_for("home") }}" class="navbar-brand">
+      <a href="{{ url_for('home', lang=lang)}}" class="navbar-brand">
           <img title="club silencio" src="{{ url_for('static', filename='logo_small.png') }}">
       </a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-          <li class=""><a href="{{ url_for('home') }}">home</a></li>
-          <li class=""><a href="{{ url_for('about') }}">about</a></li>
-          <li class=""><a href="{{ url_for('music') }}">music</a></li>
+          <li class=""><a href="{{ url_for('home', lang=lang) }}"> {{ _('home') }}</a></li>
+          <li class=""><a href="{{ url_for('about', lang=lang) }}"> {{ _('about') }}</a></li>
+          <li class=""><a href="{{ url_for('music', lang=lang) }}"> {{ _('music') }}</a></li>
 
           <li class="navicon email">
-            <a href="/contact"><i class="fa fa-envelope"></i>
+            <a href="{{ url_for('contact', lang=lang) }} "><i class="fa fa-envelope"></i>
             <span class="icon_label">email</span>
             </a>
           </li>
