@@ -3,5 +3,35 @@
 {% block title %} | about{% endblock %}
 
 {% block content %}
-about
+<style type="text/css">
+.col-md-4 img {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 992px) {
+    .cover-container {
+        width: 992px;
+    }
+}
+</style>
+<div class="row about-page offcenter-content">
+<div class="col-md-4 about-photo">
+    <div class="row">
+        <img src="{{ url_for('static', filename='louise.jpg') }}" alt="" class="img-responsive">
+    </div>
+</div>
+<div class="col-md-8">
+    <div class="about-text">
+        <h1>about Club Silencio</h1>
+
+        <p>Club Silencio is the musical alias of Brazilian singer/songwriter Louise D.D. - an imaginary band.</p>
+
+        <p>Playing in bands but writing music on her own since the age of 16, she decided to go solo and name her project Club Silencio in 2007. The name is a reference to Silencio - the club where "no hay banda" and "it's all a tape recording" - in David Lynch's film "Mulholland Dr."</p>
+
+        <p>The first independent release, the lo-fi-esque "Silencio EP", came out in August 2008 with only 100 copies and no tour. However, in October 2008 the song "Wouldn't It Be Nice?" was featured in an independent playlist and became a minor alternative web hit, gathering a few hundreds of scrobbles on Last.fm.</p>
+
+        <p>Seven years and one gig later, the second EP, titled "Dead Beats" and featuring a cover version of Cher's late '90s hit "Believe", came out in March 2016.</p>
+    </div>
+</div>
 {% endblock %}
