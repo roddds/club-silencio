@@ -2,7 +2,7 @@
 from flask_frozen import Freezer
 from main import app
 
-BASE_URL = 'http://club-silencio.com/'
+BASE_URL = 'https://roddds.github.io/club-silencio/'
 
 app.config['FREEZER_BASE_URL'] = BASE_URL
 app.static_url_path = BASE_URL + 'static'
